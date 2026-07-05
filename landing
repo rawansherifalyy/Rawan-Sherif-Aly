@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nova</title>
+    <script src="https://cdn.tailwindcss.com"></script>  <!-- this is instead of using the css-->
+</head>
+
+<body>
+<body>
+
+    <div class="bg-[url('hero-bg.svg')] bg-cover bg-center min-h-screen">
+
+        <header class="flex justify-between items-center px-6 pt-6"> <!--the flex is for rows and the p is for the padding and the alingment of the items and the space between them-->
+
+            <img src="picpic.png" alt="logo" class="w-20 h-12">
+
+            <nav class="flex gap-8 text-gray-600 font-bold"> <!--flex gap-8 is for the space between the items in the navigation bar-->
+                <a href="https://www.youtube.com/" class="px-6 py-3 border border-blue-500 rounded-full text-blue-500">Home</a>
+                <a href="https://www.youtube.com/" class="px-6 py-3 rounded-full hover:border hover:border-blue-500 hover:text-blue-500 transition">Feature</a>
+                <a href="https://www.youtube.com/" class="px-6 py-3 rounded-full hover:border hover:border-blue-500 hover:text-blue-500 transition">About</a>
+                <a href="https://www.youtube.com/" class="px-6 py-3 rounded-full hover:border hover:border-blue-500 hover:text-blue-500 transition ">Pricing</a>
+                <a href="https://www.youtube.com/" class="px-6 py-3 rounded-full hover:border hover:border-blue-500 hover:text-blue-500 transition">Contact</a>
+            </nav>
+
+        </header>
+
+        <section class="flex flex-col lg:flex-row justify-between items-center">
+
+            <div>
+                <div class="mt-[150px]">
+                    <h1 class="text-left text-[47px] font-bold ml-14">
+                    You're Using Free
+                    </h1>
+                </div>
+
+                <h1 class="text-left text-[47px] font-bold ml-14">
+                    Lite Version
+                </h1>
+
+                <p class="flex-col lg:flex-row text-left text-[16px] mt-6 ml-14">
+                    Please purchase full version of the template to get all sections and permission to use with commercial projects.
+                </p>
+
+                <button class="bg-blue-500 text-white px-[40px] py-[18px] rounded-full mt-6 text-[18px] ml-14">
+                    Get Started
+                </button>
+            </div>
+
+            <div>
+                <img src="hero-image.svg" alt="Hero Image" class="w-full max-w-[700px]">
+            </div>
+
+        </section>
+
+    </div>
+
+</body>
+</html>
